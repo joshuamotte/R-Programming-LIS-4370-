@@ -1,0 +1,13 @@
+Package: Data Beginnings
+Type: Package
+Title: Data Analyzation and Visualization
+Version: 0.0.0.9000
+Author: Joshua Motte
+Maintainer: joshuamotte@usf.edu
+Description: Will automatically replace NA values, find outliers,
+    give numerous summary statistics, automatically plot graphs, and more.
+    Has a lot to start the process of data analyzation and visualization.
+Depends: R (>= 4.4.1)
+License: CCO
+Encoding: UTF-8
+LazyData: true
