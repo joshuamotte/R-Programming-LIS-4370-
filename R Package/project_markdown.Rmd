@@ -1,0 +1,42 @@
+---
+title: "R Package Markdown"
+output: html_document
+date: "2024-11-15"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## NA Values
+
+```{r}
+
+#This function will take in a data frame as an input and then take a second parameter of how the user would like their NA values to be taken care of. They can be replaced with the mean, median, or something more complex like multiple imputation which will create more appropriate and variable values. If you leave this second parameter blank, it will just tell you how many NA values there are.
+
+```
+
+## Outlier Values
+
+```{r}
+
+#This function will be similar to the first, but instead of NA values, it works for outlier values. The first parameter will be the data frame and the second will be what they want to happen with the outliers. Leaving it blank will just show the outliers while you can also use other parameters for getting rid of outliers at a certain number of standard deviations.
+
+```
+
+## Correlation
+
+```{r}
+
+#This function will just give back what variables are the most correlated and you can choose the variable you want to be correlated specifically as well. It will also create a correlation matrix visualizing the correaltions.
+
+```
+
+## Regression
+
+```{r}
+
+#Building off the last function, this function will peform a multitude of different regression tests and calculate the MAE and then compare the strength of each model using the MAE. After, it will plot a graph showing you how strong the model is against the data using the standard error.
+
+```
+
