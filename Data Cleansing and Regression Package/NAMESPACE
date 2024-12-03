@@ -1,0 +1,12 @@
+# importing all the packages I need
+import(ggplot2)
+import(reshape2)
+import(randomForest)
+import(e1071)
+import(kernlab)
+import(caret)
+import(ggplot2)
+import(gridExtra)
+
+# exporting all the functions
+exportPattern("^[[:alpha:]]+")
