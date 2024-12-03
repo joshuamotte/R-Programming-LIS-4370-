@@ -14,4 +14,4 @@ To install this package, you can do the following:
 > install.packages("devtools")
 
 - Install the package from GitHub
-> devtools::install_github("joshuamotte/Data Cleansing and Regression")
+> devtools::install_github("joshuamotte/R-Programming-LIS-4370-/Data Cleansing and Regression Package")
